@@ -1,0 +1,44 @@
+.ending-page
+{
+    text-align: center;
+    background-image: url(./giphy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(30, 183, 183);
+}
+#score
+{
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+#score-num
+{
+    font-size: 30px;
+}
+
+#menu,#play-again
+{width: 250px;
+height: 60px;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: greenyellow;
+border-radius: 10px;
+opacity:0.8;
+margin: 5px;
+}
+.imp
+{
+    color: greenyellow;
+    font-size: 30px;
+}
+@media all and (max-width:500px)
+{
+    .ending-page
+    {
+        background-image: url(./crying.gif);
+        background-color: black;
+    }
+}
+
+
+

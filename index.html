@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="starting-page">
+    <h1 >FURTHER <br><span id="or">OR</span><br><span id="closer-text">CLOSER</span></h1>
+    <p class="instructions">
+        A frustratingly addictive game of further or closer using the distance between us and the celestial bodies.
+        <br>
+        If you think the body on the right is farther to us compared to the one on the left 
+        <br> 
+        click further or else closer
+    </p>
+    <div class="button-container">
+        <button onclick="play" id="play-button">
+            <span class="play-text">PLAY GAME</span>
+        </button>
+    </div>
+    <audio src="./sci-fi-energy-gun-39409.mp3"></audio>
+    <script src="./app.js">
+       var audio = document.getElementsByTagName("audio");
+       function play ()
+       {audio.play();}
+    </script>
+</body>
+</html>
